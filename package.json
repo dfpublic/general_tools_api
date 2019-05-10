@@ -1,0 +1,13 @@
+{
+  "name": "general_tools_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "abstract-syntax-tree": "https://github.com/dfpublic/abstract-syntax-tree.git",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "js-beautify": "^1.10.0"
+  }
+}

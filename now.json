@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "general_tools_api",
+    "builds": [
+        {
+            "src": "/index.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/" }
+    ],
+    "alias": [
+        "localhost"
+    ]
+}
